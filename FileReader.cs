@@ -19,7 +19,6 @@
                     Text = File.ReadAllText(path);
                     break;
             }
-
         }
     }
 
