@@ -60,7 +60,7 @@ brak
 ### Zwraca
 `T` element kolekcji o maksymalnej wartości
 ### Generyczność
-where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+Elementy listy muszą dziedziczyć po `struct` oraz implementować podane interfejsy: struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
 ### Exceptions
 ArgumentException
 ArgumentNullException w przypadku kiedy wywołana na obiekcie `null`
