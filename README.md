@@ -65,8 +65,9 @@ where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEqua
 ArgumentException
 ArgumentNullException w przypadku kiedy wywołana na obiekcie `null`
 
-# Ostatnie zmiany
+# Ostatnie zmiany 1.1.0
 +Dodano do klasy ExtensionMethods metodę `IList<T>.PopMax<T>()`
+
 +Dodano do klasy ExtensionMethods metodę `string.ReplaceWhitespace(string replacement)`
 
 # Licencja
