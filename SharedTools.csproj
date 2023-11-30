@@ -3,7 +3,23 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Shared Tools For Advent of Code</Title>
+    <Authors>Maciej Pawlak</Authors>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/svCcare/SharedTools</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Advent Of Code</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
