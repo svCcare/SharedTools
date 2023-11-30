@@ -13,6 +13,8 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Advent Of Code</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.1.0</Version>
+    <FileVersion>1.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
